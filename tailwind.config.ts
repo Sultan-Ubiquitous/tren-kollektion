@@ -8,11 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        'background-nav': '#d5b990',
+        'background': '#ece3d4', //checkout input box 
+        'background-categories': '#d4c3aa', //also checkout background
+        'product-card-one': '#e6d5bc',
+        'product-card-two': '#f7f0e6',
+        'button-color': '#d5b990',
+        'checkout-background': '#ffffff',
+        'fn-color': '#483b24',
+        'fn-color-2': ''
+
+
+      }
     },
   },
   plugins: [],
